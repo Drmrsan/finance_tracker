@@ -14,7 +14,9 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise', '~> 4.2'
 gem 'haml-rails', '~> 0.9.0'
-
+gem 'twitter-bootstrap-rails', '~> 3.2', '>= 3.2.2'
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
+gem 'devise-bootstrap-views'
 group :development, :test do
   gem 'byebug'
 end
